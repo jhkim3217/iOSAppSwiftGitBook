@@ -1,3 +1,5 @@
-# Chapter 01
+# 01 장
 
-GitBook allows you to organize your book into chapters, each chapter is stored in a separate file like this one.
+1. 앱에 Label 추가하기
+
+![](3_3.png)
