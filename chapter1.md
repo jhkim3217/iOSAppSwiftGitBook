@@ -39,7 +39,6 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-
 }
  
 ![](cat_year01.png)
