@@ -39,3 +39,9 @@
 
 ## 6장
 1. Core Data
+
+
+
+---
+
+본 자료는 Udemy.com The Complete iOS 9 Developer Course - Build 18 Apps, Rob Percival을 참고로 동의과학대학교 컴퓨터정보과 학생들을 위한 수업 보조 자료로 만들어 졌습니다.
