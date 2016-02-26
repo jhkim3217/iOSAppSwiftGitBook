@@ -22,3 +22,20 @@
 6. 메모장 앱 만들기
 
 ## 4장
+1. ImageView를 이용한 애니메이션(1)
+2. ImageView를 이용한 애니메이션, NSTimer(2)
+3. 지도(Map) 사용하기(1)
+4. 지도(Map), pin, message(2)
+5. 실시간 위치 구하기 : Geolocation(1)
+6. 실시간 위치 구하기 : Geolocation, GeoCoding(2)
+7. 고급 Segue
+8. 여행 지도 앱 만들기
+
+## 5장
+1. 오디오 플레이 하기(playing, pausing, restarting)
+2. 음악 듣기 앱 만들기 
+3. Swipe, Shake
+4. 사운드 세이크 앱 만들기
+
+## 6장
+1. Core Data
