@@ -1,14 +1,52 @@
 # 01 장
 
-1. 앱에 Label 추가하기
+###1 앱에 Label 추가하기
 
-![](3_3.png)
+![](1_1.png)
 
-2. 
+ 
+### 2 How old are you? 
 
-3. 
+![](2_1.png)
 
-4. Cat Year
+//  ViewController.swift
+
+import UIKit
+
+class ViewController: UIViewController {
+    
+    @IBOutlet var label: UILabel!
+    
+    @IBOutlet var textField: UITextField!
+
+    @IBAction func submit(sender: AnyObject) {
+        
+        print("Button tapped")
+        
+        label.text = textField.text
+        
+    }
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        
+        print("Hello Rob!")
+        
+    }
+
+    override func didReceiveMemoryWarning() {
+        super.didReceiveMemoryWarning()
+        // Dispose of any resources that can be recreated.
+    }
+
+}
+
+
+###3 Cat Year
+
+![](cat_year_1.png)
+![](cat_year_2.png)
+![](cat_year_3.png)
 
 import UIKit
 
@@ -41,6 +79,4 @@ class ViewController: UIViewController {
 
 }
  
-![](cat_year01.png)
 
-![](cat_year02.png)
