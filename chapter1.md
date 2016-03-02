@@ -47,9 +47,10 @@ class ViewController: UIViewController {
 ![](cat_year_2_1.png)
 ![](cat_year_3_1.png)
 
+//  ViewController.swift
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, UITextFieldDelegate {
 
     @IBOutlet var catAgeTextField: UITextField!
     
@@ -58,7 +59,7 @@ class ViewController: UIViewController {
     @IBAction func findAge(sender: AnyObject) {
         
         var catAge = Int(catAgeTextField.text!)!
-        
+    
         catAge = catAge * 7
         
         resultLabel.text = "Your cat is \(catAge) in cat years"
@@ -69,15 +70,34 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        catAgeTextField.delegate = self
+        catAgeTextField.clearButtonMode = UITextFieldViewMode.Always
+        
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    
+    override func touchesBegan(touches: Set<UITouch>, withEvent event: UIEvent?) {
+        
+        self.view.endEditing(true)
+        
     }
-
+    
+    func textFieldShouldReturn(textField: UITextField) -> Bool {
+        
+        catAgeTextField.resignFirstResponder()
+        
+        return true
+        
+    }
+    
+    func textFieldShouldClear(textField: UITextField) -> Bool {
+        
+        return true
+        
+    }
+    
 }
- 
+
 
 
 
