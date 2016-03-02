@@ -49,3 +49,9 @@
 ---
 
 본 자료는 Udemy.com의 The Complete iOS 9 Developer Course - Build 18 Apps, Rob Percival을 참고하여  동의과학대학교 컴퓨터정보과 학생들을 위한 수업 보조 자료로 만들어 졌습니다.
+
+
+### 참고자료
+
+1. 박교수의 Swift 강좌 https://www.youtube.com/playlist?list=PL2P1Vm9k53HPREGu9wks9PzXsDGhikfCW
+2. AppCoda iOS 9 강좌 : http://203.237.244.98/index.html
