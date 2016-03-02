@@ -19,7 +19,6 @@
     import UIKit
     
     class ViewController: UIViewController {
-        
         @IBOutlet var label: UILabel!
         @IBOutlet var textField: UITextField!
         
@@ -37,7 +36,6 @@
             super.didReceiveMemoryWarning()
             // Dispose of any resources that can be recreated.
         }
-    
     }
 
 
