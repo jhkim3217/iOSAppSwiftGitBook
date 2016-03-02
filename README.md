@@ -26,7 +26,7 @@
 2. ImageView를 이용한 애니메이션(1)
 3. ImageView를 이용한 애니메이션, NSTimer(2)
 
-## 5장
+## 5장 
 3. 지도(Map) 사용하기(1)
 4. 지도(Map), pin, message(2)
 5. 실시간 위치 구하기 : Geolocation(1)
