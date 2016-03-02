@@ -8,7 +8,7 @@
 #### 2 How old are you? 
 
 
-*** IBOutlet 변수, IBAction 메소드**
+* IBOutlet 변수, IBAction 메소드
 
 
 
