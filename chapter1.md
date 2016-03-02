@@ -47,56 +47,54 @@ class ViewController: UIViewController {
 ![](cat_year_2_1.png)
 ![](cat_year_3_1.png)
 
-//  ViewController.swift
-import UIKit
-
-class ViewController: UIViewController, UITextFieldDelegate {
-
-    @IBOutlet var catAgeTextField: UITextField!
+    //  ViewController.swift
+    import UIKit
     
-    @IBOutlet var resultLabel: UILabel!
+    class ViewController: UIViewController, UITextFieldDelegate {
+        @IBOutlet var catAgeTextField: UITextField!
+        
+        @IBOutlet var resultLabel: UILabel!
+        
+        @IBAction func findAge(sender: AnyObject) { 
+            
+            var catAge = Int(catAgeTextField.text!)!
+        
+            catAge = catAge * 7
+            
+            resultLabel.text = "Your cat is \(catAge) in cat years"
+            
+        }
+        
+        override func viewDidLoad() {
+            super.viewDidLoad()
+            // Do any additional setup after loading the view, typically from a nib.
+            catAgeTextField.delegate = self
+            catAgeTextField.clearButtonMode = UITextFieldViewMode.Always
+            
+        }
     
-    @IBAction func findAge(sender: AnyObject) {
         
-        var catAge = Int(catAgeTextField.text!)!
+        override func touchesBegan(touches: Set<UITouch>, withEvent event: UIEvent?) {
+            
+            self.view.endEditing(true)
+            
+        }
+        
+        func textFieldShouldReturn(textField: UITextField) -> Bool {
+            
+            catAgeTextField.resignFirstResponder()
+            
+            return true
+            
+        }
+        
+        func textFieldShouldClear(textField: UITextField) -> Bool {
+            
+            return true
+            
+        }
     
-        catAge = catAge * 7
-        
-        resultLabel.text = "Your cat is \(catAge) in cat years"
-        
-        
     }
-    
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
-        catAgeTextField.delegate = self
-        catAgeTextField.clearButtonMode = UITextFieldViewMode.Always
-        
-    }
-
-    
-    override func touchesBegan(touches: Set<UITouch>, withEvent event: UIEvent?) {
-        
-        self.view.endEditing(true)
-        
-    }
-    
-    func textFieldShouldReturn(textField: UITextField) -> Bool {
-        
-        catAgeTextField.resignFirstResponder()
-        
-        return true
-        
-    }
-    
-    func textFieldShouldClear(textField: UITextField) -> Bool {
-        
-        return true
-        
-    }
-    
-}
 
 
 
