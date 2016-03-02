@@ -9,37 +9,35 @@
 
 ![](2_1.png)
 
-// ViewController.swift
-
-import UIKit
-
-class ViewController: UIViewController {
+    // ViewController.swift
     
-    @IBOutlet var label: UILabel!
+    import UIKit
     
-    @IBOutlet var textField: UITextField!
-
-    @IBAction func submit(sender: AnyObject) {
+    class ViewController: UIViewController {
         
-        print("Button tapped")
+        @IBOutlet var label: UILabel!
         
-        label.text = textField.text
-        
-    }
+        @IBOutlet var textField: UITextField!
     
-    override func viewDidLoad() {
-        super.viewDidLoad()
+        @IBAction func submit(sender: AnyObject) {
+            
+            print("Button tapped")
+            label.text = textField.text
+            
+        }
         
-        print("Hello Rob!")
-        
+        override func viewDidLoad() {
+            super.viewDidLoad()
+            print("Hello Kim!")
+            
+        }
+    
+        override func didReceiveMemoryWarning() {
+            super.didReceiveMemoryWarning()
+            // Dispose of any resources that can be recreated.
+        }
+    
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
-}
 
 
 ####3 Cat Year?
@@ -48,6 +46,7 @@ class ViewController: UIViewController {
 ![](cat_year_3_1.png)
 
     //  ViewController.swift
+    
     import UIKit
     
     class ViewController: UIViewController, UITextFieldDelegate {
