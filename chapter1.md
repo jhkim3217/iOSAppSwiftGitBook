@@ -21,9 +21,8 @@
     class ViewController: UIViewController {
         
         @IBOutlet var label: UILabel!
-        
         @IBOutlet var textField: UITextField!
-    
+        
         @IBAction func submit(sender: AnyObject) {
             
             print("Button tapped")
@@ -56,7 +55,6 @@
     
     class ViewController: UIViewController, UITextFieldDelegate {
         @IBOutlet var catAgeTextField: UITextField!
-        
         @IBOutlet var resultLabel: UILabel!
         
         @IBAction func findAge(sender: AnyObject) { 
@@ -77,7 +75,6 @@
             
         }
     
-        
         override func touchesBegan(touches: Set<UITouch>, withEvent event: UIEvent?) {
             
             self.view.endEditing(true)
