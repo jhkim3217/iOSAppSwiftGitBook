@@ -43,10 +43,9 @@ class ViewController: UIViewController {
 
 
 ####3 Cat Year?
-
-![](cat_year_1.png)
-![](cat_year_2.png)
-![](cat_year_3.png)
+![](cat_year_1_1.png)
+![](cat_year_2_1.png)
+![](cat_year_3_1.png)
 
 import UIKit
 
