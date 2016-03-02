@@ -1,11 +1,11 @@
 # 01 장
 
-###1 앱에 Label 추가하기
+####1 앱에 Label 추가하기
 
 ![](1_1.png)
 
  
-### 2 How old are you? 
+#### 2 How old are you? 
 
 ![](2_1.png)
 
@@ -42,7 +42,7 @@ class ViewController: UIViewController {
 }
 
 
-###3 Cat Year
+####3 Cat Year?
 
 ![](cat_year_1.png)
 ![](cat_year_2.png)
