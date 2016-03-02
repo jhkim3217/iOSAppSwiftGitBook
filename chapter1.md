@@ -24,16 +24,13 @@
         @IBOutlet var textField: UITextField!
         
         @IBAction func submit(sender: AnyObject) {
-            
             print("Button tapped")
             label.text = textField.text
-            
         }
         
         override func viewDidLoad() {
             super.viewDidLoad()
             print("Hello Kim!")
-            
         }
     
         override func didReceiveMemoryWarning() {
@@ -58,13 +55,9 @@
         @IBOutlet var resultLabel: UILabel!
         
         @IBAction func findAge(sender: AnyObject) { 
-            
             var catAge = Int(catAgeTextField.text!)!
-        
             catAge = catAge * 7
-            
             resultLabel.text = "Your cat is \(catAge) in cat years"
-            
         }
         
         override func viewDidLoad() {
@@ -72,29 +65,20 @@
             // Do any additional setup after loading the view, typically from a nib.
             catAgeTextField.delegate = self
             catAgeTextField.clearButtonMode = UITextFieldViewMode.Always
-            
         }
     
         override func touchesBegan(touches: Set<UITouch>, withEvent event: UIEvent?) {
-            
             self.view.endEditing(true)
-            
         }
         
         func textFieldShouldReturn(textField: UITextField) -> Bool {
-            
             catAgeTextField.resignFirstResponder()
-            
             return true
-            
         }
         
         func textFieldShouldClear(textField: UITextField) -> Bool {
-            
             return true
-            
         }
-    
     }
 
 
