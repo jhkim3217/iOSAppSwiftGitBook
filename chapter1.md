@@ -12,6 +12,8 @@
 
 ![](2_1.png)
 
+[이미지 다운로드](https://dl.dropboxusercontent.com/u/11130733/Lec_2016_public/people.gif)
+
     // ViewController.swift
     
     import UIKit
@@ -41,6 +43,8 @@
 ![](cat_year_1_1.png)
 ![](cat_year_2_1.png)
 ![](cat_year_3_1.png)
+  
+  [이미지 다운로드](https://dl.dropboxusercontent.com/u/11130733/Lec_2016_public/cat.png)
     
     // ViewController.swift
     
