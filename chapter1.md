@@ -80,8 +80,13 @@
 
 ---
 
-[코딩 문제] Button Fun 제작
+
+### [코딩 문제] Button Fun 제작
 
 
+UIButton에 있는 현재의 text(Left Button, Right Button)을 받아와서 UILabel에 출력하시오.
+
+![](ButtonFun01.png) ![](ButtonFun02.png)
 
 
+![](ButtonFun03.png)
