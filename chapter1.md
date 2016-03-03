@@ -7,8 +7,8 @@
  
 #### 2 How old are you? 
 
-
-* IBOutlet 변수, IBAction 메소드
+* **IBOutlet 변수**는 IB(Interface Builder)와 소스 코드(UIViewController.swift)와의 연결을 위한 변수임
+* **IBAction 메소드**는 IB(Interface Builder)의 이벤트 처리 객체를 이벤트 핸들링을 위한 함수임 
 
 ![](2_1.png)
 
