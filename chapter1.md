@@ -18,10 +18,10 @@
     import UIKit
     
     class ViewController: UIViewController {
-        @IBOutlet** var label: UILabel!
-        @IBOutlet** var textField: UITextField!
+        @IBOutlet var label: UILabel!
+        @IBOutlet var textField: UITextField!
         
-        @IBAction** func submit(sender: AnyObject) {
+        @IBAction func submit(sender: AnyObject) {
             print("Button tapped")
             label.text = textField.text
         }
