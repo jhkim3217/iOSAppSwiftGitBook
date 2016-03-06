@@ -83,11 +83,11 @@
 ---
 
 
-## [코딩 문제 01] Button Fun 제작
+**[코딩 문제 01] Button Fun 제작**
 UIButton에 있는 현재의 text(Left Button, Right Button)을 받아와서 UILabel에 출력하시오.
 ![](ButtonFun01.png) ![](ButtonFun02.png)
 ![](ButtonFun03.png)
-## 코딩 문제 02. Image 바꾸기
+**[코딩 문제 02] Toggle Switch를 사용하여 Image 바꾸기**
 ![](ChangeIMG01.png) 
 
 ![](ChangeIMG02.png)
