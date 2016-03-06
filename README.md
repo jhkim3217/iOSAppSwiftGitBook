@@ -8,7 +8,8 @@
  
 
 ## 2장
-1. 손가락 숫자 맞추기 게임 앱 만들기
+1. Swift 기초 
+2. 손가락 숫자 맞추기 게임 앱 만들기
 2. Playground로 소수(prime number) 구하기
 3. 소수(prime number) 구하기 앱 만들기
 
