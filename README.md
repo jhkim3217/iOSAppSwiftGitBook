@@ -32,7 +32,7 @@
 3. 지도(Map) 사용하기(1)
 4. 지도(Map), pin, message(2)
 5. 실시간 위치 구하기 : Geolocation(1)
-6. 실시간 위치 구하기 : Geolocation, GeoCoding(2)
+6. 실시간 위치 구하기 : Geolocation, Geocoding(2)
 7. 고급 Segue
 8. 여행 지도 앱 만들기
 
