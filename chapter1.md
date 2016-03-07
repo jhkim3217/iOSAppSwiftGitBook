@@ -91,6 +91,5 @@
 **[코딩 문제 02] 버튼을 터치하여 Image 바꾸기**
 
 toggle switch를 사용하여 버튼을 계속 터치하면 연속적으로 두개의 이미지가 바뀌도록 제작하시오.
-
 ![](ChangeIMG01_s.png)![](ChangeIMG02_s.png)
 
