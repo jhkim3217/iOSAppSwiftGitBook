@@ -12,6 +12,7 @@
 2. 손가락 숫자 맞추기 게임 앱 만들기
 2. Playground로 소수(prime number) 구하기
 3. 소수(prime number) 구하기 앱 만들기
+4. AutoLayout 기본 사용법
 
 ## 3장
 1. ImageView 사용하기
