@@ -5,7 +5,6 @@
 2. Text 입력, Button 작업하기 
 3. 상호작용(interactive) 앱 만들기 
 
-
 ## 2장
 1. Swift 기초 
 2. 손가락 숫자 맞추기 게임 앱 만들기
