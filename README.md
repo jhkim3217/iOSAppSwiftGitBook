@@ -4,6 +4,7 @@
 1. 앱에 Label 추가하기 
 2. Text 입력, Button 작업하기 
 3. 상호작용(interactive) 앱 만들기 
+4. UITextField Delegate 사용하기 
 
 ## 2장
 1. Swift 기초 
