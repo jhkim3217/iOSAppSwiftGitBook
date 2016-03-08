@@ -41,10 +41,24 @@
 ####3 ```UITextFieldDelegate``` 
 ![](UITextFieldDelegate.png)
 
+```Swift
+// MARK: UITextFieldDelegate Fuction
+func textFieldShouldReturn(textField: UITextField) -> Bool {
+     catAgeTextField.resignFirstResponder() 
+     return true
+        
+}
+    
+func textFieldShouldClear(textField: UITextField) -> Bool { 
+     return true   
+}
+```
+
 ![](cat_year_1_1.png)![](cat_year_2_1.png)![](cat_year_3_1.png)
 
   
   [이미지 다운로드](https://dl.dropboxusercontent.com/u/11130733/Lec_2016_public/cat.png)
+  
 ```swift
     // ViewController.swift
     import UIKit
