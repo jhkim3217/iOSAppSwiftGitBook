@@ -110,7 +110,15 @@ toggle switch를 사용하여 버튼을 계속 터치하면 연속적으로 두�
 
 ![](ChangeIMG01_s.png)![](ChangeIMG02_s.png)
 
-**[코딩 문제 03] AutoLayout 사용하기**
+**[코딩 문제 03] AutoLayout 사용하기 01**
 
 [코딩 문제 01], [코딩 문제 02]의 UI를 AutoLayout를 적용하여 iPhone 4-inch(iPhone 4), 4.7-inch(iPhone 5,6), 5.5-inch(iPhone 6 plus)의 회상도에 적응적으로 보여질 수 있도록 제작하시오.
+
+**[코딩 문제 04] AutoLayout 사용하기 02**
+
+다음 UI와 같이 AutoLayout을 사용하여 portrait와 landscape 화면이 모두 적응적으로 보여질 수 있도록 제작하시오.
+
+![](HR_space01.png)
+![](HR_space02.png)
+![](HR_space03.png)
 
