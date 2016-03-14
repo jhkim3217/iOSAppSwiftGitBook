@@ -25,8 +25,7 @@ class ViewController: UIViewController, UITextFieldDelegate {
     @IBOutlet var resultLabel: UILabel!
     @IBOutlet var myTextField: UITextField!
     
-    @IBAction func againButtonPressed(sender: AnyObject) {
-        
+    @IBAction func againButtonPressed(sender: AnyObject) {  
         resultLabel.text = ""
         myTextField.text = ""
     }
@@ -44,8 +43,7 @@ class ViewController: UIViewController, UITextFieldDelegate {
             //print("나는 꽃다운" + myAge + "세 예요!")
             let resultStr = "나는 꽃다운 " + myAge + " 세 예요!"
             resultLabel.text = resultStr
-        }
-        
+        }        
     }
     
     // 바탕(UIView)에 터치를 하면 키패드를 끝낸다.
@@ -65,8 +63,6 @@ class ViewController: UIViewController, UITextFieldDelegate {
     func textFieldShouldClear(textField: UITextField) -> Bool  {
         return true
     }
-
-
 }
 
 ```
