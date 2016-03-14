@@ -49,7 +49,7 @@
 ---
 
 
-## [코딩 문제](https://www.gitbook.com/book/jhkim3217/lec_2016_1/edit#/edit/master/cf54_b529_bb38_c81c.md)
+## [코딩 문제]
 
 ---
 
