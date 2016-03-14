@@ -12,6 +12,9 @@
 
 ![](2_1.png)
 
+![](How-Old-02.jpg)
+![](How-Old-01.jpg)
+
 [이미지 다운로드](https://dl.dropboxusercontent.com/u/11130733/Lec_2016_public/people.gif)
 ```swift
 //  ViewController.swift
