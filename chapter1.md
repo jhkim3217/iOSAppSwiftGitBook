@@ -14,28 +14,58 @@
 
 [이미지 다운로드](https://dl.dropboxusercontent.com/u/11130733/Lec_2016_public/people.gif)
 ```swift
-    // ViewController.swift
-    import UIKit
+//  ViewController.swift
+import UIKit
+
+class ViewController: UIViewController, UITextFieldDelegate {
+
+    @IBOutlet var resultLabel: UILabel!
+    @IBOutlet var myTextField: UITextField!
     
-    class ViewController: UIViewController {
-        @IBOutlet var label: UILabel!
-        @IBOutlet var textField: UITextField!
+    @IBAction func againButtonPressed(sender: AnyObject) {
         
-        @IBAction func submit(sender: AnyObject) {
-            print("Button tapped")
-            label.text = textField.text
-        }
-        
-        override func viewDidLoad() {
-            super.viewDidLoad()
-            print("Hello Kim!")
-        }
-    
-        override func didReceiveMemoryWarning() {
-            super.didReceiveMemoryWarning()
-            // Dispose of any resources that can be recreated.
-        }
+        resultLabel.text = ""
+        myTextField.text = ""
     }
+    @IBAction func buttonPressed(sender: AnyObject) {
+        
+        // 강제 풀기(Forced Unwrapping)
+        /*
+        let myAge = myTextField.text!  // UIView.text? 는 optional type 임
+        //let myAge = nil
+        print("나는 꽃다운" + myAge + "세 예요!")
+        */
+        
+        // Optional Binding
+        if let myAge = myTextField.text  {
+            //print("나는 꽃다운" + myAge + "세 예요!")
+            let resultStr = "나는 꽃다운 " + myAge + " 세 예요!"
+            resultLabel.text = resultStr
+        }
+        
+    }
+    
+    // 바탕(UIView)에 터치를 하면 키패드를 끝낸다.
+    override func touchesBegan(touches: Set<UITouch>, withEvent event: UIEvent?) {
+        view.endEditing(true)
+        view.backgroundColor = UIColor.blueColor()
+    }
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        
+        // textField의 delete key 보이게 설정
+        myTextField.clearButtonMode = UITextFieldViewMode.Always
+    }
+    
+    // called when clear button pressed. return NO to ignore (no notifications)
+    func textFieldShouldClear(textField: UITextField) -> Bool  {
+        return true
+    }
+
+
+}
+
 ```
 
 ####3 ```UITextFieldDelegate``` 
@@ -43,12 +73,13 @@
 
 ```Swift
 // MARK: UITextFieldDelegate Fuction
+// RETURN key를 터치하면 키패드가 사라짐  
 func textFieldShouldReturn(textField: UITextField) -> Bool {
      catAgeTextField.resignFirstResponder() 
-     return true
-        
+     return true        
 }
-    
+
+//  UITextField의 delete key를 터치하면 입력한 모든 문자를 지움    
 func textFieldShouldClear(textField: UITextField) -> Bool { 
      return true   
 }
