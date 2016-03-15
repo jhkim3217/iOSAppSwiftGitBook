@@ -114,7 +114,7 @@ func textFieldShouldClear(textField: UITextField) -> Bool {
         override func touchesBegan(touches: Set<UITouch>, withEvent event: UIEvent?) {
             self.view.endEditing(true)
         }
-        
+        // default 키패드의 경우 [Return] 키를 터치하면 실행
         func textFieldShouldReturn(textField: UITextField) -> Bool {
             catAgeTextField.resignFirstResponder()
             return true
