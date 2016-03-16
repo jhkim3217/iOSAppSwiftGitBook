@@ -69,7 +69,22 @@ class ViewController: UIViewController, UITextFieldDelegate {
 ```
 
 ####3 ```UITextFieldDelegate``` 
-![](UITextFieldDelegate.png)
+
+**Managing Editing**
+```Swift
+- textFieldShouldBeginEditing:
+- textFieldDidBeginEditing:
+- textFieldShouldEndEditing:
+- textFieldDidEndEditing:
+```
+
+**Editing the Text Field’s Text**
+```Swift
+- textField:shouldChangeCharactersInRange:replacementString:
+- textFieldShouldClear:
+- textFieldShouldReturn:
+```
+
 ```Swift
 // UITextFieldDelegate Fuction Test
 // MARK: UITextFieldDelegate Function
