@@ -70,6 +70,35 @@ class ViewController: UIViewController, UITextFieldDelegate {
 
 ####3 ```UITextFieldDelegate``` 
 ![](UITextFieldDelegate.png)
+```Swift
+// UITextFieldDelegate Fuction Test
+// MARK: UITextFieldDelegate Function
+    // called when 'return' key pressed. return NO to ignore.
+    func textFieldShouldReturn(textField: UITextField) -> Bool {
+        myTextField.resignFirstResponder()
+        return true
+    }
+    
+    func textFieldShouldClear(textField: UITextField) -> Bool {
+        print("textFieldShouldClear started")
+        return false
+    }
+    
+    // return NO to disallow editing.
+    func textFieldShouldBeginEditing(textField: UITextField) -> Bool  {
+        print("textFieldShouldBeginEditing started")
+        return true
+    }
+    
+    // became first responder
+    func textFieldDidBeginEditing(textField: UITextField) {
+        print("textFieldDidBeginEditing started")
+    }
+    
+    func textFieldDidEndEditing(textField: UITextField) {
+        print("textFieldDidEndEditing started")
+    }
+```
 
 ```Swift
 // MARK: UITextFieldDelegate Fuction
