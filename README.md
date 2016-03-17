@@ -5,21 +5,16 @@
 2. Text 입력, Button 작업하기 
 3. 상호작용(interactive) 앱 만들기 
 4. AutoLayout 사용하기
-4. 키보드 제어하기 
+5. 키보드 제어하기 
+6. 소수(prime number) 구하기 앱 만들기
 
 ## 2장
-1. Swift 기초 
-2. 손가락 숫자 맞추기 게임 앱 만들기
-2. Playground로 소수(prime number) 구하기
-3. 소수(prime number) 구하기 앱 만들기
-
-## 3장
 1. ImageView 사용하기
 2. ImageView를 이용한 애니메이션(1)
 3. ImageView를 이용한 애니메이션, NSTimer(2)
 4. ScrollView 사용하기
 
-## 4장
+## 3장
 1. 네비게이션, 메뉴바, 바버튼 아이템(Navigation, MenuBar, BarButtonItem)
 2. Stop Watch 앱 제작하기
 3. 테이블뷰(TableView)(1) 
@@ -27,7 +22,7 @@
 5. Permanent Storage : NSUserDefaults
 6. 메모장 앱 만들기
 
-## 5장 
+## 4장 
 3. 지도(Map) 사용하기(1)
 4. 지도(Map), pin, message(2)
 5. 실시간 위치 구하기 : Geolocation(1)
@@ -35,13 +30,13 @@
 7. 고급 Segue
 8. 여행 지도 앱 만들기
 
-## 6장
+## 5장
 1. 오디오 플레이 하기(playing, pausing, restarting)
 2. 음악 듣기 앱 만들기 
 3. Swipe, Shake
 4. 사운드 세이크 앱 만들기
 
-## 7장
+## 6장
 1. Core Data
 2. 메모장 만들기(2)
 
