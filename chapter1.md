@@ -236,6 +236,6 @@ print(isPrime)  // false 출력
 
 ![](primeNo01.jpg)![](primeNo02.jpg)
 
-![](primeNo03.jpg
+
 
 
