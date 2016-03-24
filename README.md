@@ -8,7 +8,7 @@
 5. 키보드 제어하기 
 6. 소수(prime number) 구하기 앱 만들기
 
-## 2장
+## [2장](https://jhkim3217.gitbooks.io/lec_2016_1/content/02_c7a5.html)
 1. ImageView 사용하기
 2. ImageView를 이용한 애니메이션(1)
 3. ImageView를 이용한 애니메이션, NSTimer(2)
