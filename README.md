@@ -14,7 +14,7 @@
 3. ImageView를 이용한 애니메이션, NSTimer(2)
 4. ScrollView 사용하기
 
-## 3장
+## [3장](https://jhkim3217.gitbooks.io/lec_2016_1/content/03_c7a5.html)
 1. UIAlertController & Closure
 2. TextField Handling
 
