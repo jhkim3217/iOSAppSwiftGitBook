@@ -13,9 +13,12 @@
 2. ImageView를 이용한 애니메이션(1)
 3. ImageView를 이용한 애니메이션, NSTimer(2)
 4. ScrollView 사용하기
-5. UIAlertController & Closure
 
 ## 3장
+1. UIAlertController & Closure
+2. TextField Handling
+
+## 4장
 1. 네비게이션, 메뉴바, 바버튼 아이템(Navigation, MenuBar, BarButtonItem)
 2. Stop Watch 앱 제작하기
 3. 테이블뷰(TableView)(1) 
@@ -23,7 +26,7 @@
 5. Permanent Storage : NSUserDefaults
 6. 메모장 앱 만들기
 
-## 4장 
+## 5장 
 3. 지도(Map) 사용하기(1)
 4. 지도(Map), pin, message(2)
 5. 실시간 위치 구하기 : Geolocation(1)
@@ -31,13 +34,13 @@
 7. 고급 Segue
 8. 여행 지도 앱 만들기
 
-## 5장
+## 6장
 1. 오디오 플레이 하기(playing, pausing, restarting)
 2. 음악 듣기 앱 만들기 
 3. Swipe, Shake
 4. 사운드 세이크 앱 만들기
 
-## 6장
+## 7장
 1. Core Data
 2. 메모장 만들기(2)
 
