@@ -54,7 +54,7 @@
 
 ## 참고자료
 
-1. iOS Swift 입문 http://tryhelloworld.co.kr/courses/ios-swift%EC%9E%85%EB%AC%B8
+1. Try Hello World iOS Swift 입문 http://tryhelloworld.co.kr/courses/ios-swift%EC%9E%85%EB%AC%B8
 2.  박교수의 Swift 강좌 https://www.youtube.com/playlist?list=PL2P1Vm9k53HPREGu9wks9PzXsDGhikfCW
 2. AppCoda iOS 9 강좌 : http://203.237.244.98/index.html
 3. The Complete iOS 9 Developer Course - Build 18 Apps, Rob Percival, Udemy.com
