@@ -19,7 +19,7 @@
 2. TextField Handling
 
 ## [4장](https://jhkim3217.gitbooks.io/lec_2016_1/content/04_c7a5.html)
-1. 네비게이션, 메뉴바, 바버튼 아이템(Navigation, MenuBar, BarButtonItem)
+1. NavigationBar, MenuBar, BarButtonItem
 2. Stop Watch 앱 제작하기
 3. 테이블뷰(TableView)(1) 
 4. 테이블뷰, UISliderBar(2)
