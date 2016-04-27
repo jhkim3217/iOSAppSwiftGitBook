@@ -21,8 +21,8 @@
 ## [4장](https://jhkim3217.gitbooks.io/lec_2016_1/content/04_c7a5.html)
 1. NavigationBar, MenuBar, BarButtonItem
 2. Stop Watch 앱 제작하기
-3. 테이블뷰(UITableView)(1) 
-4. 테이블뷰, UISliderBar(2)
+3. 테이블뷰(Simple TableView) 
+4. 테이블뷰, UISliderBar
 5. Permanent Storage : NSUserDefaults
 6. 메모장 앱 만들기
 
