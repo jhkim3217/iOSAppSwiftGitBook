@@ -24,6 +24,7 @@
 3. 테이블뷰(Simple TableView) 
 4. 테이블뷰, UISliderBar
 5. Custom Cell 만들기
+6. Static Cell vs. Dynamic Cell
 
 ## 5장
 1. Segue를 통한 View 전환과 데이터 전달하기
