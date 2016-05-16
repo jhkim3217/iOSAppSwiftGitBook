@@ -23,10 +23,18 @@
 2. Stop Watch 앱 제작하기
 3. 테이블뷰(Simple TableView) 
 4. 테이블뷰, UISliderBar
-5. Permanent Storage : NSUserDefaults
-6. 메모장 앱 만들기
+5. Custom Cell 만들기
 
-## 5장 
+## 5장
+1. Segue를 통한 View 전환과 데이터 전달하기
+2. NavigationController 사용하기
+3. TabBar 사용하기
+
+## 6장
+1. Permanent Storage : NSUserDefaults
+2. 메모장 앱 만들기
+
+## 7장 
 3. 지도(Map) 사용하기(1)
 4. 지도(Map), pin, message(2)
 5. 실시간 위치 구하기 : Geolocation(1)
@@ -34,13 +42,13 @@
 7. 고급 Segue
 8. 여행 지도 앱 만들기
 
-## 6장
+## 8장
 1. 오디오 플레이 하기(playing, pausing, restarting)
 2. 음악 듣기 앱 만들기 
 3. Swipe, Shake
 4. 사운드 세이크 앱 만들기
 
-## 7장
+## 9장
 1. Core Data
 2. 메모장 만들기(2)
 
