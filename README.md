@@ -11,20 +11,19 @@
 ## [2장](https://jhkim3217.gitbooks.io/lec_2016_1/content/02_c7a5.html)
 1. ImageView 사용하기
 2. ImageView를 이용한 애니메이션(1)
-3. ImageView를 이용한 애니메이션, NSTimer(2)
+3. ImageView를 이용한 애니메이션(2), NSTimer
 4. ScrollView 사용하기
 
 ## [3장](https://jhkim3217.gitbooks.io/lec_2016_1/content/03_c7a5.html)
 1. UIAlertController & Closure
 2. TextField Handling
+3. Stop Watch 앱 제작하기 : NavigationBar, MenuBar, BarButtonItem
 
 ## [4장](https://jhkim3217.gitbooks.io/lec_2016_1/content/04_c7a5.html)
-1. NavigationBar, MenuBar, BarButtonItem
-2. Stop Watch 앱 제작하기
-3. 테이블뷰(Simple TableView) 
-4. 테이블뷰, UISliderBar
-5. Custom Cell 만들기
-6. Static Cell vs. Dynamic Cell
+1. 테이블뷰(Simple TableView) 
+2. 테이블뷰, UISliderBar
+3. Custom Cell 만들기
+4. Static Cell vs. Dynamic Cell
 
 ## [5장](https://jhkim3217.gitbooks.io/lec_2016_1/content/05_c7a5.html)
 1. Segue를 통한 View 전환과 데이터 전달하기
