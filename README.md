@@ -23,7 +23,7 @@
 1. 테이블뷰(Simple TableView) 
 2. 테이블뷰, UISliderBar
 3. Custom Cell 만들기
-4. Static Cell vs. Dynamic Cell
+4. Static Cell vs. Dynamic Prototype Cell
 
 ## [5장](https://jhkim3217.gitbooks.io/lec_2016_1/content/05_c7a5.html)
 1. Segue를 통한 View 전환과 데이터 전달하기
