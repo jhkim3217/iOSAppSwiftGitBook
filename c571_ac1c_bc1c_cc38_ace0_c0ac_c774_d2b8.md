@@ -1,4 +1,6 @@
-### Swift Reference
+### Swift & iOS App Development Reference
+
+http://www.learnswiftonline.com/
 
 http://travel-everyone.tistory.com/
 
