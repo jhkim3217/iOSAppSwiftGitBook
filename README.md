@@ -33,7 +33,8 @@
 
 ## [6장](https://jhkim3217.gitbooks.io/lec_2016_1/content/06_c7a5.html)
 1. Permanent Storage : NSUserDefaults
-2. 메모장 앱 만들기
+2. UIViewController Life Cycle 
+3. 메모장 앱 만들기
 
 ## [7장 ](https://jhkim3217.gitbooks.io/lec_2016_1/content/07_c7a5.html)
 3. 지도(Map) 사용하기(1)
