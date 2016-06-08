@@ -38,7 +38,7 @@
 
 ## [7장 ](https://jhkim3217.gitbooks.io/lec_2016_1/content/07_c7a5.html)
 3. 지도(Map) 사용하기 : Mapkit
-4. Pin 사용하기, Pin Title Navigation
+4. Pin 사용하기, CalloutAccessary Navigation
 5. 다중 pin 사용하기, 프로그램 구조화하기  
 5. 실시간 위치 구하기 : Geolocation
 6. Geocoding, Overlay Line rendering
