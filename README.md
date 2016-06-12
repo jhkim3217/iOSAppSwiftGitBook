@@ -37,11 +37,13 @@
 3. 메모장 앱 만들기
 
 ## [7장 ](https://jhkim3217.gitbooks.io/lec_2016_1/content/07_c7a5.html)
-3. 지도(Map) 사용하기 : Mapkit
-4. Pin 사용하기, CalloutAccessary Navigation
-5. 다중 pin 사용하기, 프로그램 구조화하기  
+1. 지도(Map) 사용하기 : Mapkit
+2. Annotation 사용하기, CalloutAccessary Navigation
+3. 다중 Annotation 사용하기
+4. plist 화일 사용하기, 프로그램 구조화하기 
+5. Overlay Line rendering 
 5. 실시간 위치 구하기 : Geolocation
-6. Geocoding, Overlay Line rendering
+6. Location Tracking : Geocoding, Overlay Line rendering
 
 ## 8장
 1. 오디오 플레이 하기(playing, pausing, restarting)
