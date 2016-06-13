@@ -40,10 +40,11 @@
 1. 지도(Map) 사용하기 : Mapkit
 2. Annotation 사용하기, CalloutAccessary Navigation
 3. 다중 Annotation 사용하기
-4. plist 화일 사용하기, 프로그램 구조화하기 
-5. Overlay Line rendering 
-5. 실시간 위치 구하기 : Geolocation
-6. Location Tracking : Geocoding, Overlay Line rendering
+4. plist 화일 사용하기, 프로그램 구조화하기
+5. Geocoding 
+6. Overlay Line rendering 
+7. 실시간 위치 구하기 : Geolocation
+8. Location Tracking : Overlay Line rendering
 
 ## 8장
 1. 오디오 플레이 하기(playing, pausing, restarting)
