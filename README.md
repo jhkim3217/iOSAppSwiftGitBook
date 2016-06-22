@@ -56,8 +56,10 @@
 1. Core Data
 2. 메모장 만들기(2)
 
-
----
+## 10장
+1. Bluetooth 4.0 HM10과 아두이노 통신
+2. Bluetooth 앱 개발
+--
 ## [[코딩 문제]](https://jhkim3217.gitbooks.io/lec_2016_1/content/cf54_b529_bb38_c81c.html)
 ---
 
