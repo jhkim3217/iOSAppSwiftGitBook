@@ -57,7 +57,8 @@
 2. 메모장 만들기(2)
 
 ## 10장
-1. Bluetooth 4.0/BLE HM10과 아두이노와의 통신
+1. CoreBluetooth
+2. Bluetooth 4.0/BLE HM10과 아두이노와의 통신
 2. Bluetooth 앱 만들기
 
 --
