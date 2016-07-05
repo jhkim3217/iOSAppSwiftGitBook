@@ -61,7 +61,6 @@
 2. Bluetooth 4.0/BLE HM10과 아두이노와의 통신
 2. Bluetooth 앱 만들기
 
---
 ## [[코딩 문제]](https://jhkim3217.gitbooks.io/lec_2016_1/content/cf54_b529_bb38_c81c.html)
 ---
 
