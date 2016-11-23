@@ -64,6 +64,9 @@
 ## 11장
 1. CoreMotion
 
+
+## 12장 앱스토어 등록
+
 ## [[코딩 문제]](https://jhkim3217.gitbooks.io/lec_2016_1/content/cf54_b529_bb38_c81c.html)
 ---
 
